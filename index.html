@@ -812,7 +812,7 @@ const CAM_IMGS = {
   0: { empty:'img/Pishik.png',   A:'img/Pishik%20A.png',   B:'img/Pishik%20B.png'           },
   1: { empty:'img/Lavochka.png', A:'img/Lavochka%20A.png', B:'img/Lavochka%20B.png', AB:'img/Lavocka%20AB.png' },
   2: { empty:'img/Vhod.jpg',     A:'img/Vhod%20A.jpg',     B:'img/Vhod%20B.jpg'             },
-  3: { empty:'img/Lift.jpg',     A:'img/Lift%20A.png',     B:'img/Lift%20B.png'             },
+  3: { empty:'img/Lift.jpeg',     A:'img/Lift%20A.png',     B:'img/Lift%20B.png'             },
   4: { empty:'img/2Et.png',      A:'img/2Et%20A.png',      B:'img/2Et%20B.png'              },
 };
 
@@ -1077,7 +1077,7 @@ function toggleDoor() {
 }
 
 function getDoorImg() {
-  if (state.doorClosed) return 'img/Dver.png';
+  if (state.doorClosed) return 'img/Dver.jpg';
   // дверь открыта — показываем бабку если стоит у двери
   if (state.bluePos === LOC.DVER) return 'img/Dver%20Open%20A.png';
   if (state.redPos  === LOC.DVER) return 'img/Dver%20Open%20B.png';
