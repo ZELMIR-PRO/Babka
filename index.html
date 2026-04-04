@@ -551,7 +551,7 @@ const CAM_IMGS = {
   0: { empty: 'img/Pishik.png', A: 'img/Pishik%20A.png', B: 'img/Pishik%20B.png' },
   1: { empty: 'img/Lavochka.png', A: 'img/Lavochka%20A.png', B: 'img/Lavochka%20B.png', AB: 'img/Lavocka%20AB.png' },
   2: { empty: 'img/Vhod.jpg', A: 'img/Vhod%20A.jpg', B: 'img/Vhod%20B.jpg' },
-  3: { empty: 'img/Lift.jpg', A: 'img/Lift%20A.png', B: 'img/Lift%20B.png' },
+  3: { empty: 'img/Lift.jpeg', A: 'img/Lift%20A.png', B: 'img/Lift%20B.png' },
   4: { empty: 'img/2Et.png', A: 'img/2Et%20A.png', B: 'img/2Et%20B.png' }
 };
 
@@ -641,7 +641,7 @@ function updateDoorScene() {
   let peepBtn = document.getElementById('peepholeActionBtn');
   
   if (state.doorClosed) {
-    img.src = 'img/Dver.png';
+    img.src = 'img/Dver.jpg';
     toggleBtn.innerText = '🔓 ОТКРЫТЬ ДВЕРЬ';
     toggleBtn.className = 'door-scene-btn secondary';
     peepBtn.style.display = 'block';
